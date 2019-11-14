@@ -5,9 +5,9 @@ import requests
 url = "http://natas15.natas.labs.overthewire.org/index.php"
 username = "natas15"
 password = "AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J"
-#characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 #26个大小写字母加上10个数字。
-characters = 'WaIHEacj63wnNIBROHeqi3p9t0m5nhmh'
+#characters = 'WaIHEacj63wnNIBROHeqi3p9t0m5nhmh'
 #方法一：可以一次性尝试所有字母数字。
 #方法二：也可以分两个脚本，脚本一过滤出可能的字母数字，脚本二排字母数字的顺序。
 #方法二应该比方法一效率高一倍左右吧。
